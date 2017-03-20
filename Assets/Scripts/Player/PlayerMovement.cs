@@ -79,7 +79,13 @@ public class PlayerMovement : MonoBehaviour
 		// Create a boolean that is true if either of the input axes is non-zero.
 		bool walking = h != 0f || v != 0f;
 
+
+		 // 만약 실ㅇ중인 애니메이션이 있ㅡ면 중ㅣ하고 걷는 애메이션을 시ㄱ하낟.
+		//anim.Stop ();
+		
+
 		// Tell the animator whether or not the player is walking.
 		anim.SetBool ("IsWalking", walking);
+
 	}
 }

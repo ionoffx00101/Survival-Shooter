@@ -554,7 +554,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   cloudProjectId: 7b1bba14-308a-4b4a-81b6-5576944998ff
   projectName: Survival Shooter
