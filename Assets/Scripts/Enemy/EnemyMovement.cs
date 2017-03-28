@@ -11,6 +11,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Awake ()
     {
+        // Player라는 태그가 붙은 것을 가져온다.
         player = GameObject.FindGameObjectWithTag ("Player").transform;
         //playerHealth = player.GetComponent <PlayerHealth> ();
         //enemyHealth = GetComponent <EnemyHealth> ();
