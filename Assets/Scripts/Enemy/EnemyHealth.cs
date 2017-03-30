@@ -74,7 +74,10 @@ public class EnemyHealth : MonoBehaviour
         GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;
         GetComponent <Rigidbody> ().isKinematic = true;
         isSinking = true;
-        //ScoreManager.score += scoreValue;
+        // 죽으면 scoremanager내에 있는 score값을 바꿈
+        // scoreValue = 현재 10으로 되어있음
+        ScoreManager.score += scoreValue;
+        // 게임 오브젝트는 Destroy
         Destroy (gameObject, 2f);
     }
 }
